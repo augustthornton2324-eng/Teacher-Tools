@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Tools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <h1>Teacher Tools</h1>
+    <p>Simple tools to help classrooms run smoothly.</p>
+
+    <section>
+      <h2>Homework Submission</h2>
+
+      <form>
+        <label for="studentName">Student Name</label><br>
+        <input type="text" id="studentName" name="studentName" required><br><br>
+        
+        <label for="class-period">Class Period</label><br>
+        <input type="text" id="class-period" name="class-period" required><br><br>
+
+        <label for="assignment">Assignment Name</label><br>
+        <input type="text" id="assignment" name="assignment" required><br><br>
+        <p class="success-message" style="display:none; color: green;">
+  Submitted successfully!
+</p>
+
+        <button type="submit">Submit Homework</button>
+      </form>
+    </section>
+    <section>
+  <h2>Classroom Jobs</h2>
+
+  <form>
+    <label for="signupName">Student Name</label><br>
+    <input type="text" id="signupName" required><br><br>
+
+    <label for="jobs">Choose a job</label><br>
+    <select id="jobs" required>
+      <option value="">--Select one--</option>
+      <option>Library Helper</option>
+      <option>Board Cleaner</option>
+      <option>Line Leader</option>
+      <option>Paper Passer</option>
+      <option>Caboose</option>
+      <option>Bathroom Monitor</option>
+    </select><br><br>
+<p class="success-message" style="display:none; color: green;">
+  Submitted successfully!
+</p>
+
+    <button type="submit">Sign Up</button>
+  </form>
+</section>
+<section>
+  <h2>Parent Contact Form</h2>
+   <form>
+     <label for="parentname">Parent/Guardian Name</label><br>
+     <input type="text" id="parentname" required><br><br>
+  
+    <label for="studentname">Student Name</label><br>
+  <input type="text" id="studentname" required><br></br>
+
+<label for="email">Email</label><br>
+<input type="email" id="email" required><br><br>
+
+<label for="number">Phone Number</label><br>
+<input type="tel" id="number" required><br><br>
+  <p class="success-message" style="display:none; color: green;">
+  Submitted successfully!
+</p>
+<button type="submit">Submit</button>
+</form>
+
+  <script src="script.js"></script>
+</body>
+</html>
